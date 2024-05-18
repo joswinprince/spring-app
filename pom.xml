@@ -11,6 +11,7 @@
 	<groupId>com.improveminds</groupId>
 	<artifactId>app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
 	<name>app</name>
 	<description>app for Spring Boot</description>
 	<properties>
