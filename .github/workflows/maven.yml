@@ -33,7 +33,7 @@ jobs:
     - name: Build with Maven
       run: mvn clean install
     - name: Build & push Docker image
-      uses: docker/build-push-action@v5
+      uses: mr-smithers-excellent/docker-build-push@v5
       with:
         image: joswinprince/spring-app
         tags: v1
