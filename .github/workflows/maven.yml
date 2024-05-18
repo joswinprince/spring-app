@@ -38,7 +38,7 @@ jobs:
         image: joswinprince/spring-app
         tags: v1
         registry: docker.io
-        dockerfile: Dockerfile.ci
+        dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
 
