@@ -1,0 +1,18 @@
+/* Add blue h1 headings */	
+h1 {
+	color: blue;
+}
+/* create a margin around the h1 headings */
+h1 {
+	margin: 20px;
+}
+/* Add a border around the h1 headings */
+h1 {
+	border: 2px solid black;
+}
+/* create a main div with margin,padding, and border */
+div {
+	margin: 20px;
+	padding: 20px;
+	border: 2px solid black;
+}
