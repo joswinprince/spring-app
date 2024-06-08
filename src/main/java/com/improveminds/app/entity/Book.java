@@ -13,15 +13,17 @@ public class Book {
     private Long id;
     private String title;
     private String author;
+    private float price;
 
     // Constructors, getters, and setters
 
     public Book() {
     }
 
-    public Book(String title, String author) {
+    public Book(String title, String author,int price) {
         this.title = title;
         this.author = author;
+        this.price = price;
     }
 
     public Long getId() {
@@ -47,4 +49,13 @@ public class Book {
     public void setAuthor(String author) {
         this.author = author;
     }
+
+	public float getPrice() {
+		return price;
+	}
+
+	public void setPrice(float price) {
+		this.price = price;
+	}
+    
 }
